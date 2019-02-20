@@ -12,7 +12,7 @@ function createElement(arr) {
     arr.forEach(function(item){
         let card = document.createElement('div');
         card.classList.add('goods__item');
-        card.innetHTML = `
+        card.innerHTML = `
             <img class="goods__img" src="${item.url}" alt="phone">
             <div class="goods__colors">Доступно цветов: 4</div>
             <div class="goods__title">

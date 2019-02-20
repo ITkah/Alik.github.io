@@ -27,6 +27,7 @@ function createElement(arr) {
     });
 }
 
+
 loadContent('js/db.json', () => {
         const cartWrapper = document.querySelector('.cart__wrapper'), 
         cart = document.querySelector('.cart'),
